@@ -15,13 +15,6 @@ export default function App() {
           <Task text={"task 1"} />
           <Task text={"task 2"} />
           <Task text={"task 3"} />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
         </View>
       </View>
     </View>
@@ -41,5 +34,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold'
   },
-  items: {}
+  items: {
+    marginTop: 30
+  }
 });
